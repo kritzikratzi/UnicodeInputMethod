@@ -1,0 +1,38 @@
+What's this? 
+------------
+
+This little input method plugin can come in very handy if enjoy using 
+all those unicode characters that can finally be taken for granted 
+(it is truly absurd that there's no proper way for typing those chars)
+
+This file allows you to reference a small selected subset 
+(the greek alphabet + some chars i always need) by name. 
+Here's a demo: http://www.youtube.com/watch?v=01s1mUdzMw4
+
+
+
+How to install: 
+---------------
+1. Copy this to ~/Library/Input Methods/
+2. Go to System Preferences → Language → Input Methods
+   Make sure you enable the "UnicodeByNames" Plugin
+   and set a quick short cut for switching languages. 
+3. Logout and back in (no idea why this is necessary)
+4. Fire up textedit, switch to the new language and type 
+   arrow followed by a space, you should get a neat little 
+   menu from which you can select the arrow you want. 
+
+This should work in most applications, sometimes the character menu 
+will be at the lower left corner (e.g. in textmate). 
+
+
+
+
+Problems: 
+---------
+If you grab the file from github it might look a bit funky. 
+That shouldn't be problem though, 
+just ensure that when editing the file you load and save with 
+encoding "utf 16 little endian", 
+When you want to view it in your browser use View → Encoding → UTF-16
+p.s. To make the confusion complete this readme is stored as UTF-8!
